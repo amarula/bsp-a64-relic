@@ -1,0 +1,1 @@
+./sunxi-fel -v -p spl sunxi-spl-fel.bin write 0x44000 bl31.bin write 0x4a000000 u-boot.bin write 0x40080000 Image write 0x4FA00000 sun50i-a64-brava-keller.dtb write 0x4FB00000 boot-ram.scr write 0x4FD00000 uramdisk.img.gz reset64 0x44000

@@ -1,0 +1,1 @@
+../out/images/sunxi-fel -v -p spl sunxi-spl-fel.bin write 0x44000 bl31.bin write 0x4a000000 u-boot.bin write 0x40080000 ../out/images/ESP/Image write 0x4FA00000 ../out/images/ESP/brava-keller.dtb write 0x4FB00000 boot-legacy.scr reset64 0x44000
